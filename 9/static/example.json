@@ -1,0 +1,10 @@
+{
+    "menu": {
+        "desserts": [
+            "Tiramisu",
+            "Napoleon",
+            "Chocolate bullets"
+        ]
+    },
+    "name": "The restaurant of the three desserts"
+}

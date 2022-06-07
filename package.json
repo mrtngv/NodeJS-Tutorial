@@ -1,0 +1,23 @@
+{
+  "name": "node-js-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrtngv/NodeJS-Tutorial.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrtngv/NodeJS-Tutorial/issues"
+  },
+  "homepage": "https://github.com/mrtngv/NodeJS-Tutorial#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}

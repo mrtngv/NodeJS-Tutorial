@@ -1,0 +1,65 @@
+H1 {
+    color: blue;
+    background-color: chartreuse;
+    text-align: center;
+}
+
+.green{
+    color: greenyellow;
+    background-color: rgb(255, 0, 238);
+}
+
+.blue {
+    color: blue;
+    background-color: rgb(142, 217, 221);
+}
+
+.red {
+    background-color: crimson;
+}
+
+.orange {
+    background-color: bisque;
+    color: orange;
+}
+
+.post-form {
+    border-radius: 5px;
+    background-color: #3224b0;
+    padding: 20px;
+}
+
+label{
+    color: aliceblue;
+    background-color: black;
+}
+
+.form-group{
+    display: block;
+}
+
+.form-input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(35, 105, 137);
+    border-radius: 16px;
+    box-sizing: border-box;
+}
+
+.submit {
+  width: 100%;
+  background-color: #421c43;
+  color: rgb(153, 165, 164);
+  font-size: 30px;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.submit:hover {
+    background-color: #969f32;
+}

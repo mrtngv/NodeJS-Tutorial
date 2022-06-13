@@ -1,6 +1,6 @@
 ## Creating HTTP Server using the Http Module
 
-> **_Import the Http Module_** <br />const http = require('http');
+> **_Import the Http Module._** <br />const http = require('http');
 
 > const server = `http.createServer`((`req`, `res`) => {<br />
 console.log(req.url)<br />

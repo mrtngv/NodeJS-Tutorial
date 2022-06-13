@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="public/css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static Server</title>
+</head>
+<body>
+    <script src="public/js/script.js"></script>
+    <div>
+        <H1>HTML Clown Templete: <%= data.userQuery %></H1>
+        <% if(data.loggedIn) { %>
+            <h3> You are logged In.</h3>
+            <h1> <%= data.username %> </h1>
+        <% } %>
+        <ul class="red">
+            <% data.searchResults.forEach(result=> { %>
+                <li class="green"><%= result %></li>
+                <% }); %>
+          </ul>
+    </div>
+</body>
+</html>

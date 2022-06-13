@@ -8,7 +8,7 @@
 5. Video
 6. etc
 
-*It's a good idea to put the Node.js application behind a proxy for example: `Nginx`* 
+*It's a good idea to put the Node JS application behind a proxy for example: `Nginx`* 
 
 I have a static folder, wtih css/style.css and js/script.js which are called from index.html. There the path begins with `public`.
 

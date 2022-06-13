@@ -2,7 +2,7 @@
 
 *The Events Module is build in in Node JS and helps us bring the Event driven Programming*
 
-1. Import the events module
+1. Import the events module.
 > const EventEmitter = require('events'); <br />
 const eventEmitter = new EventEmitter(); <br />
 
@@ -36,4 +36,4 @@ console.log("My name is " + name); <br />
 > **_Create instance of the object and attach the callBack function on the event_** <br /> const martin = new Person("Martin");<br />
 john.on('name', nameFunction)<br />
 
-> **_emit the event_** <br />john.emit('name', john.name);<br /> 
+> **_emit the event_** <br />john.emit('name', john.name);<br />

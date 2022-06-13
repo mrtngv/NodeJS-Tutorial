@@ -1,7 +1,7 @@
 ## Installing Packages Using npm
 *Node Package Manager to Install packages.*
 
-**_npmjs.com_** - Discover Packages.
+**_npmjs.com_** - Discover Packages
 
 **_Add `.gitignore` File so the node_modules will be not version controlled._**
 

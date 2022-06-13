@@ -1,7 +1,7 @@
 ## The ReadLine Module
 
 **The readline module provides an interface for reading data from a Readable stream (such as process.stdin) one line at a time.**
-**The Node.js application will not terminate until thereadline.Interface is closed because the interface waits for data to be received on the input stream.**
+**The Node.js application will not terminate until thereadline.Interface is closed because the interface waits for data to be received on the input stream**
 
 1. The <ins>**_readline.createInterface()_**</ins> method creates a new readline.Interfaceinstance.
 

@@ -1,6 +1,6 @@
 ## Start working with Express Web Framework
 
-*Express is a web framework for node js* **https://expressjs.com/**
+*Express is a web framework for node js.* **https://expressjs.com/**
 
 1. npm init `-yes` - `-yes` flag means skip questions 
 2. npm install `express`.

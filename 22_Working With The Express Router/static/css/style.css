@@ -1,0 +1,30 @@
+H1 {
+    color: blue;
+    background-color: chartreuse;
+    text-align: center;
+}
+
+H3 {
+    color: rgb(207, 54, 118);
+    background-color: rgb(0, 242, 255);
+    text-align: center;
+}
+
+.green{
+    color: greenyellow;
+    background-color: rgb(255, 0, 238);
+}
+
+.blue {
+    color: blue;
+    background-color: rgb(142, 217, 221);
+}
+
+.red {
+    background-color: crimson;
+}
+
+.orange {
+    background-color: bisque;
+    color: orange;
+}

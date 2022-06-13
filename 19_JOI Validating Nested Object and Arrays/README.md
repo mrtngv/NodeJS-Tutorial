@@ -1,6 +1,6 @@
 ## User Input Validation with JOI Validating Nested Object and Arrays
 
-*If There are complex object, it is more convinient to break them up to diiferent schemas and then combine them into single one.*
+*If There are complex object, it is more convinient to break them up to diiferent schemas and then combine them into single one*
 > **_Import joi module_**</br> const joi = require('joi'); </br>
 
 

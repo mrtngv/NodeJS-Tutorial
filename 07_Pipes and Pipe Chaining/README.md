@@ -1,6 +1,6 @@
 ## Pipes and Pipe Chaining
 
-*What a Pipes allow us to do is to taka a source stream, which is just a readable stream, and send it over to his destination,. which is just a writable stream.*
+*What a Pipes allow us to do is to taka a source stream, which is just a readable stream, and send it over to his destination,. which is just a writable stream*
 
 From '`./6/app.js'`, only modify the writing with a pipe.
 

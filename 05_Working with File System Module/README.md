@@ -2,7 +2,7 @@
 
 **Files.js**
 
-*The File System Module allows us to work with the file systyem - create files ,read ,delete ,create folders and stuff like that.*
+*The File System Module allows us to work with the file systyem - create files ,read ,delete ,create folders and stuff like that*
 
 > **_Import the File System Module_** <br />const fs = require('fs');
 

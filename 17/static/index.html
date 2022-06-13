@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="public/css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static Server</title>
+</head>
+<body>
+    <script src="public/js/script.js"></script>
+    <div>
+        <H1 class=>HTML Clown Templete</H1>
+        <ul class="red">
+            <li class="green">Coffee</li>
+            <li class="blue">Tea</li>
+            <li class="orange">Milk</li>
+          </ul>
+          <div class="post-form">
+              <form action="/" method="POST" id="form">
+                  <div class="form-group">
+                      <label for="username">Username:</label>
+                      <input type="text" class="form-input" name="username">
+                  </div>
+                  <div class="form-group">
+                    <label for="username">Password:</label>
+                    <input type="password" class="form-input" name="password">
+                </div>
+                <input class="submit" type="submit" value="Submit">
+              </form>
+          </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(()=> {
+            $('#form').submit((e) => {
+                e.preventDefault();
+                $.ajax({
+                    url: '/',
+                    type: 'post',
+                    contentType: 'application/json',
+                    data: JSON.stringify($('#form').serializeArray()),
+                    success: (response)=> {
+                        console.log('Success');
+                        console.log(response);
+                    }
+                })
+            })
+        })
+    </script>
+</body>
+</html>

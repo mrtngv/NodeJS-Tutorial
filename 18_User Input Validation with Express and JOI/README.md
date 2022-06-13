@@ -1,7 +1,7 @@
 ## User Input Validation with Express and JOI
 
 **JOI**
-*joi lets you describe your data using a simple, intuitive, and readable language.*
+*joi lets you describe your data using a simple, intuitive, and readable language*
 *Documentation : https://joi.dev/api/?v=17.6.0*
 
 1. **Install joi**: - `npm install joi`.

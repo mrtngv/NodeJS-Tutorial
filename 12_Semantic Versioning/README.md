@@ -1,5 +1,5 @@
 ## Semantic Versioning
-*Semantic Versioning is a standart that allow us to know what are the changes that has occured and the new version of hte package*
+*Semantic Versioning is a standart that allow us to know what are the changes that has occured and the new version of the package.*
 
 "version": "1.0.0", // major_version.minor_version.patch_version
 *For example `lodash` in ../11/ is version: `^4.17.21`*

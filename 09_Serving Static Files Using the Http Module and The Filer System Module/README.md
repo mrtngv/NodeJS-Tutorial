@@ -30,7 +30,7 @@ const server = http.createServer((req, res) => {<br />
             res.writeHead(200, { 'Content-type': 'text/html' });<br />
             break;<br />
     }<br />
-    > **_Pipe the ReadStream to Res, which is also a Stream_** <br />
+    > **_Pipe the ReadStream to Res, which is also a Stream._** <br />
     readStream.pipe(res);<br />
 })<br />
 > **_Listen on port 3000_** <br />server.listen('3000');<br />

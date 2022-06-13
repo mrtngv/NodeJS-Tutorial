@@ -1,7 +1,7 @@
 ## Http Post Request using Express and Body Parser Module
 
 *In order to use the Body-Parser module, which we will use to parse the form data, we need to install it with `npm install body-parser`*<br/>
-*Post Request is tipically used when working with inputs/forms*<br />
+*Post Request is tipically used when working with inputs/forms.*<br />
 
 ## index.html: <br/>
 *There is an post form to / with labels: `username` and `password`. The body parser module will help to parse this data, and will keep the labels as object attributes:*
